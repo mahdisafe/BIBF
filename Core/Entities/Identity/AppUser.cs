@@ -13,13 +13,3 @@ public class AppUser : IdentityUser
     public Address Address { get; set; }
 }
 
-public class Address
-{
-    public int Id { get; set; }
-    public string FirstName { get; set; }
-    public string LastName { get; set; }
-    public string City { get; set; }
-    public string BlockNo { get; set; }
-    public string RoadNo { get; set; }
-    public string BuildingNo { get; set; }
-}
